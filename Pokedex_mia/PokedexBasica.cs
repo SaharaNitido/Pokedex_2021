@@ -69,5 +69,12 @@ namespace PruebaBBDD
             label12.Text = pokemonElegido.Rows[0]["habilidad"].ToString();
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            VentanaPrincipal ventana = new VentanaPrincipal();
+            ventana.Show();
+        }
     }
 }

@@ -19,14 +19,22 @@ namespace PruebaBBDD
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Form1 ventana = new Form1();
             ventana.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Hide();
             PokedexBasica ventana = new PokedexBasica();
             ventana.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            
         }
     }
 }
