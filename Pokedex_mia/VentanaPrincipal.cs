@@ -34,7 +34,8 @@ namespace PruebaBBDD
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            
+            Pokedex_mia.Movimientos ventana = new Pokedex_mia.Movimientos();
+            ventana.Show();
         }
     }
 }

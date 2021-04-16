@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PruebaBBDD;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,7 +14,7 @@ namespace Pokedex_mia
     public partial class Movimientos : Form
     {
         Conexion miConexion = new Conexion();
-        DataTable misPokemons = new DataTable();
+        int idActual = 1;
 
         public Movimientos()
         {
